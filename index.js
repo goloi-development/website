@@ -32,3 +32,5 @@ setTimeout(function(){
     },800);
 },1450);
 
+$('#formcontact')[0].reset();
+
