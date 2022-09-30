@@ -33,4 +33,4 @@ setTimeout(function(){
 },1450);
 
 $('#formcontact')[0].reset();
-
+$('#formcontact')[0].window.location.reload();
