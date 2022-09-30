@@ -34,3 +34,13 @@ setTimeout(function(){
 
 $('#formcontact')[0].reset();
 $('#formcontact')[0].window.location.reload();
+
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
