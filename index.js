@@ -32,9 +32,6 @@ setTimeout(function(){
     },800);
 },1450);
 
-$('#formcontact')[0].reset();
-$('#formcontact')[0].window.location.reload();
-
 
 function myFunction() {
   var x = document.getElementById("myLinks");
@@ -42,5 +39,22 @@ function myFunction() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
+  }
+}
+
+function vehicle_owner() {
+  var y = document.getElementById("vehicle_owner");
+  if (y.style.display == "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+}
+function service_center() {
+  var z = document.getElementById("service_center");
+  if (z.style.display == "none") {
+    z.style.display = "block";
+  } else {
+    z.style.display = "none";
   }
 }
